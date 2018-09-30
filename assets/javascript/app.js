@@ -149,6 +149,9 @@ database.ref().on("value", function (snapshot) {
 
     console.log(sv);
 
+    //clear the screen
+    $("#results").empty();
+
     
     // Change the HTML to reflect
     for (var i = 0; i < sv.length; i++) {
