@@ -1,0 +1,90 @@
+body {
+    padding-bottom: 20px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: #1D1D24 !important;
+    opacity: .95;
+    color: white;
+    border-radius: 3px;
+}
+
+#train-app {
+    display: none;
+}
+
+#login-screen {
+    display: none;
+    background:#AFB5BD;
+    border-radius: 3px;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    opacity: .95;
+}
+
+.login-submit {
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+input {
+    border-radius: 3px;
+}
+
+#welcome-screen {
+    display: none;
+    color: white;
+    text-shadow: 0px 2px 10px black;
+    background: #2F3235;
+    opacity: .9;
+    border-radius: 3px;
+    width: 50%;
+    margin: auto;
+}
+
+#clear {
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+#log-out-btn {
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+
+#schedule-header {
+    background: #CFAD63;
+    opacity: .9;
+    border-radius: 3px;
+}
+
+table {
+    opacity: .95;
+    border-radius: 3px;
+}
+
+#addTrainHeader {
+    background: #CFAD63;
+    opacity: .9;
+    border-radius: 3px;
+}
+
+#new-train-form {
+    background: #2F3235;
+    opacity: .8;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#submit {
+    background: red;
+    border: none;
+}
+
